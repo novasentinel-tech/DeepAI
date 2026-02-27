@@ -54,6 +54,8 @@ data/raw/
 data/processed/
 data/logs/*.log
 data/logs/*.jsonl
+data/results/*.jsonl
+
 
 # Models
 data/models/*.pkl

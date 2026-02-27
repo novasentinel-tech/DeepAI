@@ -4,9 +4,14 @@ Phase C: Demonstration ML Training Script (Fast Version)
 Completes quickly for demonstration purposes while showing all steps
 """
 
+import sys
+from pathlib import Path
+
+# Add project root to path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 import numpy as np
 import logging
-from pathlib import Path
 from datetime import datetime
 
 from src.data.dataset_generator import DatasetGenerator

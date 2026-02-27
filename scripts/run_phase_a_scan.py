@@ -4,6 +4,12 @@ Phase A Collectors - Exemplo de uso integrado.
 Demonstra como usar todos os 6 coletores de dados.
 """
 
+import sys
+from pathlib import Path
+
+# Add project root to path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 import json
 from datetime import datetime
 
